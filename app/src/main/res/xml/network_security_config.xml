@@ -1,0 +1,12 @@
+<!--
+  ~ Created by Muhammad Utsman on 28/11/20 3:54 PM
+  ~ Copyright (c) 2020 . All rights reserved.
+  -->
+
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">ws75.aptoide.com</domain>
+        <domain includeSubdomains="true">pool.img.aptoide.com</domain>
+        <domain includeSubdomains="true">pool.apk.aptoide.com</domain>
+    </domain-config>
+</network-security-config>
